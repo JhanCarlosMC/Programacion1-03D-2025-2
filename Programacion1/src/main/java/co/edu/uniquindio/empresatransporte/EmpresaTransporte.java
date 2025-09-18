@@ -43,13 +43,13 @@ public class EmpresaTransporte {
     }
 
     public boolean eliminarConductor(String cedula) {
-        if (!buscarConductor(cedula)) {
-            for (int i = 0; i < listConductors.length; i++) {
-                if (listConductors[i].getCedula().equals(cedula)) {
-                    listConductors[i] = null;
-                    return true;
-                }
-            }
+//        if (!buscarConductor(cedula)) {
+//            for (int i = 0; i < listConductors.length; i++) {
+//                if (listConductors[i].getCedula().equals(cedula)) {
+//                    listConductors[i] = null;
+//                    return true;
+//                }
+//            }
             return false;
         }
 
