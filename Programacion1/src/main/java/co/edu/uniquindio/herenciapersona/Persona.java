@@ -11,6 +11,10 @@ public abstract class Persona {
         this.edad = edad;
     }
 
+    public void caminar(){
+        System.out.println("Camina normal...");
+    }
+
     public String getId() {
         return id;
     }

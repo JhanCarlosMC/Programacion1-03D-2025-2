@@ -17,4 +17,5 @@ public class Cliente extends Persona {
     public void setBeneficio(String beneficio) {
         this.beneficio = beneficio;
     }
+
 }

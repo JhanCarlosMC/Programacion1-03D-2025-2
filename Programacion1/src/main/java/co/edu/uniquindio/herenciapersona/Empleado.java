@@ -29,4 +29,9 @@ public class Empleado extends Persona{
     public void setCargo(Cargo cargo) {
         this.cargo = cargo;
     }
+
+    @Override
+    public void caminar() {
+        System.out.println("Camina seriamente...");
+    }
 }

@@ -15,8 +15,9 @@ public class MainHerencia {
         Cliente newCliente =
                 new Cliente("333","Mario", 24, "Todos");
 
-        System.out.println(newEmpleado.getNombre());
-        System.out.println(newCliente.getNombre());
-
+//        System.out.println(newEmpleado.getNombre());
+//        System.out.println(newCliente.getNombre());
+            newEmpleado.caminar();
+            newCliente.caminar();
     }
 }
